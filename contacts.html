@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакты | Школа кулинарии</title>
+    <meta name="description" content="Контактная информация Школы кулинарии в Минске. Адрес, телефон, email и время работы.">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.5;
+            color: #333;
+            background-color: #f8f8f8;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #d94e4e;
+            color: white;
+            padding: 15px 0;
+        }
+        .container {
+            width: 90%;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 0 15px;
+        }
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        nav ul {
+            display: flex;
+            list-style: none;
+            margin-top: 10px;
+            padding: 0;
+        }
+        nav ul li {
+            margin-right: 20px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        .main-content {
+            margin: 20px 0;
+        }
+        h1, h2, h3 {
+            color: #d94e4e;
+        }
+        .contact-item {
+            margin-bottom: 20px;
+        }
+        .contact-info a {
+            color: #d94e4e;
+            text-decoration: none;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 20px 0;
+            margin-top: 20px;
+        }
+        .copyright {
+            text-align: center;
+            margin-top: 15px;
+            padding-top: 10px;
+            border-top: 1px solid #555;
+        }
+        @media (max-width: 768px) {
+            nav ul {
+                flex-direction: column;
+            }
+            nav ul li {
+                margin-bottom: 5px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">Школа кулинарии</div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="recipes.html">Рецепты</a></li>
+                    <li><a href="courses.html">Курсы</a></li>
+                    <li><a href="contacts.html">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <main class="main-content">
+            <section class="contact-info">
+                <h1>Контактная информация</h1>
+
+                <div class="contact-item">
+                    <h3>Адрес</h3>
+                    <p>г. Минск, ул. Кулинарная, д. 123</p>
+                </div>
+
+                <div class="contact-item">
+                    <h3>Телефон</h3>
+                    <p><a href="tel:+375291491153">+375 (29) 149-11-53</a></p>
+                </div>
+
+                <div class="contact-item">
+                    <h3>Email</h3>
+                    <p><a href="mailto:info@culinaryschool.by">info@culinaryschool.by</a></p>
+                </div>
+
+                <div class="contact-item">
+                    <h3>Время работы</h3>
+                    <p>Понедельник - Пятница: 9:00 - 20:00<br>
+                    Суббота: 10:00 - 18:00<br>
+                    Воскресенье: выходной</p>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="copyright">
+                <p>&copy; 2025 Школа кулинарии</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

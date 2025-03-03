@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Страница не найдена | Школа кулинарии</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f8f8f8;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #d94e4e;
+            color: white;
+            padding: 15px 0;
+        }
+        .container {
+            width: 90%;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 0 15px;
+        }
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        nav ul {
+            display: flex;
+            list-style: none;
+            margin-top: 10px;
+        }
+        nav ul li {
+            margin-right: 20px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        .error-content {
+            text-align: center;
+            padding: 50px 0;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .error-code {
+            font-size: 100px;
+            font-weight: bold;
+            color: #d94e4e;
+            line-height: 1;
+            margin-bottom: 20px;
+        }
+        .error-message {
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+        .error-description {
+            font-size: 16px;
+            margin-bottom: 30px;
+            color: #666;
+        }
+        .btn {
+            display: inline-block;
+            background-color: #d94e4e;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .popular-links {
+            margin-top: 40px;
+        }
+        .popular-links h3 {
+            color: #d94e4e;
+            margin-bottom: 15px;
+        }
+        .popular-links ul {
+            list-style: none;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+            padding: 0;
+        }
+        .popular-links ul li a {
+            color: #d94e4e;
+            text-decoration: none;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 20px 0;
+            margin-top: 40px;
+        }
+        .copyright {
+            text-align: center;
+        }
+        @media (max-width: 768px) {
+            nav ul {
+                flex-direction: column;
+            }
+            nav ul li {
+                margin-bottom: 5px;
+            }
+            .error-code {
+                font-size: 80px;
+            }
+            .error-message {
+                font-size: 24px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">Школа кулинарии</div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="recipes.html">Рецепты</a></li>
+                    <li><a href="courses.html">Курсы</a></li>
+                    <li><a href="contacts.html">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <main class="error-content">
+            <div class="error-code">404</div>
+            <h1 class="error-message">Страница не найдена</h1>
+            <p class="error-description">К сожалению, запрашиваемая страница не существует или была перемещена. Возможно, вы перешли по устаревшей ссылке или ввели неправильный адрес.</p>
+            
+            <a href="index.html" class="btn">Вернуться на главную</a>
+            
+        </main>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="copyright">
+                <p>&copy; 2025 Школа кулинарии </p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
